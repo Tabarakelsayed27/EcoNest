@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EcoNest</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER 1: TOP BAR -->
+
+    <div class="top-bar">
+
+        <div class="top-left">
+            <a href="#">About Us</a>
+            <a href="#">Privacy</a>
+            <a href="#">FAQ</a>
+            <a href="#">Careers</a>
+        </div>
+
+        <div class="top-right">
+            <a href="#">My Wishlist</a>
+            <a href="#">Track Your Order</a>
+
+            <span class="top-divider"></span>
+
+            <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- HEADER 2: MAIN HEADER -->
+
+    <header class="main-header">
+
+        <a href="#" class="logo">
+            <i class="fa-solid fa-leaf"></i>
+
+            <span>Eco<span class="logo-green">Nest</span></span>
+        </a>
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Search sustainable products...">
+
+            <button aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <div class="header-icons">
+
+            <a href="#" aria-label="Account">
+                <i class="fa-regular fa-user"></i>
+            </a>
+
+            <a href="#" aria-label="Wishlist">
+                <i class="fa-regular fa-heart"></i>
+            </a>
+
+            <a href="#" aria-label="Shopping cart" class="cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- HEADER 3: NAVIGATION -->
+
+    <nav class="navbar">
+
+        <ul class="nav-list">
+
+            <li>
+                <a href="#" class="active">Home</a>
+            </li>
+
+            <!-- CATEGORIES MEGA MENU -->
+            <li class="has-mega-menu">
+
+                <a href="#categories">
+                    Categories
+                    <i class="fa-solid fa-angle-down arrow"></i>
+                </a>
+
+                <div class="mega-menu">
+
+                    <div class="mega-column">
+
+                        <h4>Shop by Category</h4>
+
+                        <a href="#categories">Home & Living</a>
+                        <a href="#categories">Reusable Essentials</a>
+                        <a href="#categories">Personal Care</a>
+                        <a href="#categories">Garden & Outdoor</a>
+
+                    </div>
+
+                    <div class="mega-column">
+
+                        <h4>Explore Products</h4>
+
+                        <a href="#products">All Products</a>
+                        <a href="#products">New Arrivals</a>
+                        <a href="#products">Best Sellers</a>
+                        <a href="#products">Special Offers</a>
+
+                    </div>
+
+                </div>
+
+            </li>
+
+            <li>
+                <a href="#products">Shop</a>
+            </li>
+
+            <li>
+                <a href="#about">About Us</a>
+            </li>
+
+            <li>
+                <a href="#news">Blog</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- SECTION 1: EcoNest Hero -->
+
+    <section class="hero-section" id="home">
+
+        <div class="hero-content">
+            <span class="hero-subtitle">Live Green, Live Better</span>
+
+            <h1>Small Choices,<br>Big Impact</h1>
+
+            <p>
+                Discover sustainable essentials designed for a greener
+                lifestyle. Make every choice count for a better tomorrow.
+            </p>
+
+            <a href="#categories" class="hero-btn">SHOP NOW</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/img12.jpeg" alt="Natural home decor and green plants">
+        </div>
+    </section>
+
+    <!-- SECTION 2: CATEGORIES -->
+
+    <section class="categories-section" id="categories">
+
+        <div class="category-card">
+
+            <img src="images/ima1.avif" alt="Eco friendly home essentials">
+
+            <div class="category-overlay">
+
+                <h3>Eco Home</h3>
+
+                <a href="#trending">Shop Collection</a>
+
+            </div>
+
+        </div>
+
+        <div class="category-card">
+
+            <img src="images/ima2.avif" alt="Green living essentials">
+
+            <div class="category-overlay">
+
+                <h3>Green Living</h3>
+
+                <a href="#trending">Shop Collection</a>
+
+            </div>
+
+        </div>
+
+        <div class="category-card">
+            <img src="images/img2.avif" alt="Natural skincare products">
+
+            <div class="category-overlay">
+
+                <h3>Natural skincare</h3>
+
+                <a href="#trending">Shop Collection</a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECTION 3: TRENDING THIS WEEK -->
+
+    <section class="trending-section" id="products">
+
+        <!-- Section Header -->
+        <div class="trending-heading">
+            <h2>Trending This Week</h2>
+
+            <nav class="trending-tabs">
+                <a href="#trend-home" class="trending-tab">Home</a>
+                <a href="#trend-care" class="trending-tab">Personal Care</a>
+                <a href="#trend-reusable" class="trending-tab">Reusables</a>
+                <a href="#trend-all" class="trending-tab">All</a>
+            </nav>
+        </div>
+
+        <!-- Products -->
+        <div class="trending-products">
+
+            <!-- Product 1 -->
+            <article class="trend-card" id="trend-home">
+                <div class="trend-image">
+
+                    <div class="trend-image-inner">
+                        <div class="trend-image-front">
+                            <img src="images/img7.jpeg" alt="Natural Ceramic Vase">
+                        </div>
+
+                        <div class="trend-image-back">
+                            <img src="images/img8.jpeg" alt="Natural Ceramic Vase back view">
+                        </div>
+                    </div>
+
+                    <span class="trend-badge">New</span>
+
+                    <div class="trend-actions">
+                        <a href="#products" aria-label="Add to cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a href="#products" aria-label="Add to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#products" aria-label="Quick view">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="trend-info">
+                    <h3>Natural Ceramic Vase</h3>
+                    <p>$24.00 <del>$30.00</del></p>
+                </div>
+            </article>
+
+            <!-- Product 2 -->
+            <article class="trend-card" id="trend-care">
+                <div class="trend-image">
+
+                    <div class="trend-image-inner">
+                        <div class="trend-image-front">
+                            <img src="images/img9.jpeg" alt="Organic Skincare Set">
+                        </div>
+
+                        <div class="trend-image-back">
+                            <img src="images/img10.jpeg" alt="Organic Skincare Set back view">
+                        </div>
+                    </div>
+
+                    <span class="trend-badge sale-badge">Sale</span>
+
+                    <div class="trend-actions">
+                        <a href="#products" aria-label="Add to cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a href="#products" aria-label="Add to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#products" aria-label="Quick view">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="trend-info">
+                    <h3>Organic Skincare Set</h3>
+                    <p>$32.00 <del>$40.00</del></p>
+                </div>
+            </article>
+
+            <!-- Product 3 -->
+            <article class="trend-card" id="trend-reusable">
+                <div class="trend-image">
+
+                    <div class="trend-image-inner">
+                        <div class="trend-image-front">
+                            <img src="images/img11.jpeg" alt="Reusable Water Bottle">
+                        </div>
+
+                        <div class="trend-image-back">
+                            <img src="images/img12.jpeg" alt="Reusable Water Bottle back view">
+                        </div>
+                    </div>
+
+                    <div class="trend-actions">
+                        <a href="#products" aria-label="Add to cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a href="#products" aria-label="Add to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#products" aria-label="Quick view">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="trend-info">
+                    <h3>Reusable Water Bottle</h3>
+                    <p>$18.00 <del>$22.00</del></p>
+                </div>
+            </article>
+
+            <!-- Product 4 -->
+            <article class="trend-card" id="trend-all">
+                <div class="trend-image">
+
+                    <div class="trend-image-inner">
+                        <div class="trend-image-front">
+                            <img src="images/img13.jpeg" alt="Minimal Home Organizer">
+                        </div>
+
+                        <div class="trend-image-back">
+                            <img src="images/img14.jpeg" alt="Minimal Home Organizer back view">
+                        </div>
+                    </div>
+
+                    <div class="trend-actions">
+                        <a href="#products" aria-label="Add to cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a href="#products" aria-label="Add to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#products" aria-label="Quick view">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="trend-info">
+                    <h3>Minimal Home Organizer</h3>
+                    <p>$27.00 <del>$35.00</del></p>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Side Arrows -->
+        <a href="#products" class="trend-arrow trend-prev" aria-label="Previous products">
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>
+
+        <a href="#products" class="trend-arrow trend-next" aria-label="Next products">
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+
+    </section>
+
+    <!-- SECTION 4: TESTIMONIAL -->
+
+    <section class="testimonial-section" id="reviews">
+
+        <h2>Customer Testimonial</h2>
+
+        <p class="testimonial-description" id="testimonial-quote">
+
+            Discovering EcoNest has made sustainable living so much easier.
+
+            I love the thoughtful products and the quality of every item.
+
+        </p>
+
+        <div class="testimonial-customer">
+
+            <img id="testimonial-avatar" src="https://i.pravatar.cc/100?img=47" alt="Customer">
+
+            <div>
+
+                <h4 id="testimonial-name">Sarah Mitchell</h4>
+
+                <span>Happy Customer</span>
+
+            </div>
+
+        </div>
+
+        <button class="testimonial-arrow testimonial-prev" id="testimonial-prev" aria-label="Previous review">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </button>
+
+        <button class="testimonial-arrow testimonial-next" id="testimonial-next" aria-label="Next review">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </button>
+
+    </section>
+
+    <!-- SECTION 5: YOU MAY LIKE -->
+
+    <section class="products-section recommended-section" id="products">
+
+        <div class="section-heading">
+            <h2>You May Like</h2>
+        </div>
+
+        <div class="product-carousel">
+
+            <button class="carousel-arrow prev" data-carousel="recommended" aria-label="Previous recommendations">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="products-grid" id="recommended-products">
+
+                <!-- Product 1 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img class="main-image" src="images/like1.jpeg" alt="Natural care products">
+
+                        <img class="hover-image" src="images/like2.jpeg" alt="Alternate product view">
+
+                        <div class="product-actions">
+                            <button aria-label="Wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button aria-label="View">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+
+                            <button aria-label="Cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Daily Care Essentials</h3>
+                        <p>$16.00 <del>$20.00</del></p>
+                    </div>
+
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img class="main-image" src="images/like3.jpeg" alt="Notebook">
+
+                        <img class="hover-image" src="images/like4.jpeg" alt="Alternate product view">
+
+                        <div class="product-actions">
+                            <button aria-label="Wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button aria-label="View">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+
+                            <button aria-label="Cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Everyday Notebook</h3>
+                        <p>$12.00 <del>$15.00</del></p>
+                    </div>
+
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img class="main-image" src="images/like5.jpeg" alt="Indoor plant">
+
+                        <img class="hover-image" src="images/like6.jpeg" alt="Alternate product view">
+
+                        <div class="product-actions">
+                            <button aria-label="Wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button aria-label="View">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+
+                            <button aria-label="Cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Indoor Plant Pot</h3>
+                        <p>$26.00 <del>$30.00</del></p>
+                    </div>
+
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img class="main-image" src="images/like7.jpeg" alt="Natural candle">
+
+                        <img class="hover-image" src="images/like8.jpeg" alt="Alternate product view">
+
+                        <div class="product-actions">
+                            <button aria-label="Wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <button aria-label="View">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+
+                            <button aria-label="Cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Botanical Candle</h3>
+                        <p>$19.00 <del>$23.00</del></p>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <button class="carousel-arrow next" data-carousel="recommended" aria-label="Next recommendations">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION 6: LATEST NEWS -->
+
+    <section class="latest-news-section" id="news">
+
+        <div class="section-heading">
+
+            <h2>Latest News</h2>
+
+        </div>
+
+        <div class="news-grid">
+
+            <article class="news-card">
+
+                <a href="#" class="news-image">
+
+                    <img src="images/img17.jpeg" alt="Natural beauty products">
+
+                </a>
+
+                <div class="news-info">
+
+                    <span>Natural Beauty</span>
+
+                    <h3>What Makes Natural Products a Better Choice?</h3>
+
+                    <p>Discover simple ideas for a more thoughtful everyday routine.</p>
+
+                    <a href="#" class="read-more">Read More</a>
+
+                </div>
+
+            </article>
+
+            <article class="news-card">
+
+                <a href="#" class="news-image">
+
+                    <img src="images/img18.jpeg" alt="Sustainable living">
+
+                </a>
+
+                <div class="news-info">
+
+                    <span>Green Living</span>
+
+                    <h3>Small Changes That Make Your Home Greener</h3>
+
+                    <p>Explore practical habits that can help reduce daily waste.</p>
+
+                    <a href="#" class="read-more">Read More</a>
+
+                </div>
+
+            </article>
+
+            <article class="news-card">
+
+                <a href="#" class="news-image">
+
+                    <img src="images/img19.jpeg" alt="Reusable stationery">
+
+                </a>
+
+                <div class="news-info">
+
+                    <span>Conscious Choices</span>
+
+                    <h3>How to Choose Reusable Everyday Essentials</h3>
+
+                    <p>Learn how to choose practical products designed to last.</p>
+
+                    <a href="#" class="read-more">Read More</a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION 7: STORE SERVICES -->
+
+    <section class="benefits-section">
+
+        <div class="benefit-item">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+            <h3>Fast & Free Delivery</h3>
+
+            <p>For eligible orders</p>
+
+        </div>
+
+        <div class="benefit-item">
+
+            <i class="fa-solid fa-credit-card"></i>
+
+            <h3>Secure Payment</h3>
+
+            <p>Safe checkout</p>
+
+        </div>
+
+        <div class="benefit-item">
+
+            <i class="fa-solid fa-money-bill-transfer"></i>
+
+            <h3>Money Back Guarantee</h3>
+
+            <p>Terms and conditions apply</p>
+
+        </div>
+
+        <div class="benefit-item">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <h3>Online Support</h3>
+
+            <p>Here to help you</p>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION 8: NEWSLETTER -->
+
+    <section class="newsletter-section">
+
+        <div class="newsletter-copy">
+
+            <h2>Subscribe Newsletter</h2>
+
+            <p>Get updates about our latest eco-friendly collections.</p>
+
+        </div>
+
+        <form class="newsletter-form" id="newsletter-form">
+
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <button type="submit">Subscribe</button>
+
+        </form>
+
+        <div class="newsletter-socials">
+
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION 9: FOOTER -->
+
+    <footer class="site-footer" id="contact">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="footer-logo">
+
+                    <i class="fa-solid fa-leaf"></i>
+
+                    Eco<span>Nest</span>
+
+                </a>
+
+                <p>Small choices, big impact. Discover thoughtful products for a greener lifestyle.</p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Shop Men</h3>
+
+                <a href="#categories">Home Essentials</a>
+
+                <a href="#categories">Reusable Items</a>
+
+                <a href="#categories">Natural Care</a>
+
+                <a href="#trending">New Arrivals</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Shop Women</h3>
+
+                <a href="#categories">Lifestyle</a>
+
+                <a href="#categories">Beauty</a>
+
+                <a href="#categories">Green Living</a>
+
+                <a href="#products">Best Sellers</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+
+                <a href="#news">Latest News</a>
+
+                <a href="#reviews">Reviews</a>
+
+                <a href="#contact">Contact Us</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>Copyright © 2026 EcoNest. All rights reserved.</p>
+
+            <p>Made for a greener world <i class="fa-solid fa-leaf"></i></p>
+
+        </div>
+        <div class="copyright">
+            Copyright 2023 All rights reserved |
+            This template is made with
+            <span class="heart">&hearts;</span>
+            by <a href="#">Colorlib</a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
